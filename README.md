@@ -1,2 +1,3 @@
-# PowerApps-Tutorial-SVG-Icons-and-Menu-Implementation
-Tutorial w/ completed sample on using SVG Icons and Component to create a beautiful menu
+# PowerApps Apps Samples
+
+Check out these samples and demos mentioned on my YouTube Channel: https://www.youtube.com/@PowerPlatformRyan
