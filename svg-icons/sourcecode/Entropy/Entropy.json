@@ -1,0 +1,73 @@
+{
+  "ComponentIndexes": {},
+  "ControlUniqueGuids": {},
+  "ControlUniqueIds": {
+    "App": 1,
+    "Host": 3,
+    "icoSave2": 6,
+    "imgIconSave1": 5,
+    "Screen1": 4,
+    "Screen2": 11,
+    "sldColor": 12,
+    "sldScale": 7
+  },
+  "FunctionParamsInvariantScripts": {},
+  "FunctionParamsInvariantScriptsOnInstances": {},
+  "HeaderLastSavedDateTimeUTC": "01/17/2024 21:23:12",
+  "IsLegacyComponentAllowGlobalScopeCase": false,
+  "LocalConnectionIDReferences": {},
+  "LocalDatabaseReferencesAsEmpty": false,
+  "LocalResourceFileNames": {
+    "Save": "9e46eb06-f848-456a-bbd2-5670f585fc66.png"
+  },
+  "LocalResourceRootPaths": {
+    "Save": "https://docserverpwaprodwus.blob.core.windows.net/33d3d3f5-78c7-43b5-8978-ac415690646c-1/resource/08902571-4364-48e3-a06a-5dba75fe418d.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-01-17T20%3A37%3A38Z&ske=2024-01-18T20%3A52%3A38Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-01-18T20%3A52%3A38Z&sr=b&sp=r&sig=7n4OseZnC477CvGhKl9agA5DrbGNaAtRoSw%2BpqiICDQ%3D"
+  },
+  "OrderComponentMetadata": {},
+  "OrderComponentTemplate": {},
+  "OrderDataSource": {},
+  "OrderGroupControls": {},
+  "OrderPcfTemplate": {},
+  "OrderTemplate": {},
+  "OrderXMLTemplate": {
+    "image": 0,
+    "slider": 1
+  },
+  "OverridablePropertiesEntry": {
+    "App": {},
+    "Host": {},
+    "icoSave2": {},
+    "imgIconSave1": {},
+    "Screen1": {},
+    "Screen2": {},
+    "sldColor": {},
+    "sldScale": {}
+  },
+  "PCFDynamicSchemaForIRRetrievalEntry": {},
+  "PCFTemplateEntry": {},
+  "PublishOrderIndices": {
+    "App": 0,
+    "Host": 0,
+    "icoSave2": 1,
+    "imgIconSave1": 0,
+    "Screen1": 0,
+    "Screen2": 0,
+    "sldColor": 3,
+    "sldScale": 2
+  },
+  "ResourcesJsonIndices": {
+    "Image-SampleImage": 0,
+    "Image-Save": 1
+  },
+  "RuleScreenIdWithoutScreen": {},
+  "TemplateVersions": {},
+  "VolatileProperties": {
+    "AnalysisLoadTime": 0.038796900000000002,
+    "ControlCount": {
+      "button": 2,
+      "image": 1,
+      "slider": 1
+    }
+  },
+  "WasLocalDatabaseReferencesEmpty": true
+}
