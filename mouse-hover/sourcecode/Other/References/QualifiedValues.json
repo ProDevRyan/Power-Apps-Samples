@@ -1,0 +1,25 @@
+{
+  "QualifiedValues": [
+    {
+      "Kind": "default.cds_cr6b8_spendingtrackers_forms",
+      "Namespace": "Spending Tracker (Forms)",
+      "Values": {
+        "Information": "058ae0a4-2294-47db-943a-5c8778140695"
+      }
+    },
+    {
+      "Kind": "default.cds_cr6b8_spendingtrackers_forms",
+      "Namespace": "Spending Trackerss (Forms)",
+      "Values": {
+        "Information": "058ae0a4-2294-47db-943a-5c8778140695"
+      }
+    },
+    {
+      "Kind": "default.cds_cr6b8_spendingtracker_forms",
+      "Namespace": "Spending Trackers (Forms)",
+      "Values": {
+        "Information": "d4deda39-935d-4dd6-938d-df8e9f38d337"
+      }
+    }
+  ]
+}

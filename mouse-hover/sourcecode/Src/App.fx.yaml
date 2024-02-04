@@ -1,0 +1,35 @@
+App As appinfo:
+    BackEnabled: =true
+    Formulas: |
+        =// Last month's spending
+        nfLastMonthsSpending = Sum(Filter('Spending Tracker',
+            DateTime >= DateAdd(DateTime(Year(Now()),Month(Now()),1,0,0,0),-1,TimeUnit.Months) && DateTime < DateTime(Year(Now()),Month(Now()),1,0,0,0),
+            TotalSpent),TotalSpent);
+        
+        // This month's spending
+        nfThisMonthsSpending = Sum(Filter('Spending Tracker',
+            DateTime >= DateTime(Year(Now()),Month(Now()),1,0,0,0) && DateTime < DateAdd(DateTime(Year(Now()),Month(Now()),1,0,0,0),1,TimeUnit.Months),
+        TotalSpent),TotalSpent);
+        
+        // Percentage change MoM
+        nfMonthlyChange = (nfThisMonthsSpending - nfLastMonthsSpending)/nfLastMonthsSpending *100;
+        
+        // The maximum spent on one day
+        nfMaxSpent = Max(
+            comChartElement_8.comTodaysSpend,
+            comChartElement_9.comTodaysSpend,
+            comChartElement_10.comTodaysSpend,
+            comChartElement_11.comTodaysSpend,
+            comChartElement_12.comTodaysSpend,
+            comChartElement_13.comTodaysSpend,
+            comChartElement_14.comTodaysSpend
+        );
+    Theme: =PowerAppsTheme
+
+    Host As hostControl.DefaultHostControlVariant:
+        OnCancel: =false
+        OnEdit: =false
+        OnNew: =false
+        OnSave: =false
+        OnView: =false
+

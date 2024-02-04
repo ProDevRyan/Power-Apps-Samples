@@ -1,0 +1,100 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "cr6b8_spendingtrackerses",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "cr6b8_spendingtrackers",
+    "Name": "Spending Tracker",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "cr6b8_datetime": "DateTime",
+      "cr6b8_description": "Description",
+      "cr6b8_name": "Name",
+      "cr6b8_spendingtrackers_AsyncOperations": "System Jobs",
+      "cr6b8_spendingtrackers_BulkDeleteFailures": "Bulk Delete Failures",
+      "cr6b8_spendingtrackers_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "cr6b8_spendingtrackers_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "cr6b8_spendingtrackers_ProcessSession": "Process Sessions",
+      "cr6b8_spendingtrackers_SyncErrors": "Sync Errors",
+      "cr6b8_spendingtrackersid": "Spending Trackers",
+      "cr6b8_totalspent": "TotalSpent",
+      "cr6b8_totalspent_base": "TotalSpent (Base)",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "exchangerate": "Exchange Rate",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "transactioncurrencyid": "Currency",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "Spending Tracker",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Spending Tracker (Views)",
+    "Name": "_cr6b8_spendingtrackers_views",
+    "RelatedEntityName": "Spending Tracker",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "3b76a537-fe69-4631-bb70-3120566836a2": "Spending Trackers Lookup View",
+      "4f1d2deb-6d0e-4c46-86d1-1c3fd4b0aa22": "Active Spending Trackerss",
+      "74df5ac4-a8a0-4f0d-b8cb-c5a9c2b10122": "Inactive Spending Trackerss",
+      "964ba01b-924c-45cf-9bc1-480868cd0091": "Spending Trackers Associated View",
+      "a9f5dd0f-2500-4b21-af79-ccb317076b24": "Spending Trackers Advanced Find View"
+    }
+  },
+  {
+    "DisplayName": "Status (Spending Tracker)",
+    "Name": "cr6b8_spendingtrackers_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Spending Tracker"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Spending Tracker",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (Spending Tracker)",
+    "Name": "cr6b8_spendingtrackers_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Spending Tracker"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Spending Tracker",
+    "Type": "OptionSetInfo"
+  }
+]

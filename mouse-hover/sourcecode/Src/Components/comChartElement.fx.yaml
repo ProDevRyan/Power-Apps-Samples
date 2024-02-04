@@ -1,0 +1,85 @@
+comChartElement As CanvasComponent:
+    comBiggestSpend: =1000
+    comTodaysDay: =DateTime(2024, 1, 31, 0, 0, 0)
+    comTodaysSpend: =1000
+    Fill: =RGBA(0, 0, 0, 0)
+    Height: =226
+    Width: =75
+    X: =0
+    Y: =0
+    ZIndex: =1
+
+    lblDay As label:
+        Align: =Align.Center
+        Font: =Font.Lato
+        Height: =20
+        Size: =10
+        Text: =Lower(Text(comChartElement.comTodaysDay,"ddd"))
+        Width: =50
+        X: =(Parent.Width-Self.Width)/2
+        Y: =206
+        ZIndex: =1
+
+    conBar As groupContainer.manualLayoutContainer:
+        DropShadow: =DropShadow.None
+        Height: =(comChartElement.comTodaysSpend/comChartElement.comBiggestSpend)*156
+        RadiusBottomLeft: =5
+        RadiusBottomRight: =5
+        RadiusTopLeft: =5
+        RadiusTopRight: =5
+        Width: =50
+        X: =(Parent.Width-Self.Width)/2
+        Y: =lblDay.Y - Self.Height
+        ZIndex: =2
+
+        butBar As button:
+            BorderThickness: =0
+            Fill: =If(comChartElement.comTodaysSpend = comChartElement.comBiggestSpend, RGBA(180, 224, 229, 1), RGBA(236, 117, 93, 1))
+            FocusedBorderThickness: =0
+            Height: =Parent.Height
+            HoverFill: =ColorFade(Self.Fill, 30%)
+            PressedBorderColor: =Self.PressedFill
+            PressedFill: =ColorFade(Self.Fill,-.2)
+            RadiusBottomLeft: =5
+            RadiusBottomRight: =5
+            RadiusTopLeft: =5
+            RadiusTopRight: =5
+            Text: =""
+            Width: =Parent.Width
+            ZIndex: =1
+
+        OnHover1 As OnHover:
+            DisplayMode: =DisplayMode.Edit
+            Height: =0
+            ParentContainerId: ="conBar"
+            Width: =0
+            X: =0
+            Y: =0
+            ZIndex: =2
+
+    conTip As groupContainer.manualLayoutContainer:
+        DropShadow: =DropShadow.None
+        Fill: =RGBA(56, 35, 20, 1)
+        Height: =40
+        RadiusBottomLeft: =5
+        RadiusBottomRight: =5
+        RadiusTopLeft: =5
+        RadiusTopRight: =5
+        Visible: =OnHover1.IsHovered
+        Width: =75
+        X: =(Parent.Width-Self.Width)/2
+        Y: =conBar.Y - Self.Height - 10
+        ZIndex: =3
+
+        lblTip As label:
+            Align: =Align.Center
+            Color: =RGBA(255, 255, 255, 1)
+            Font: =Font.Lato
+            FontWeight: =FontWeight.Bold
+            Text: |-
+                =Text(comChartElement.comTodaysSpend,"$#")
+            Width: =75
+            X: =(Parent.Width-Self.Width)/2
+            Y: =(Parent.Height-Self.Height)/2
+            ZIndex: =1
+
