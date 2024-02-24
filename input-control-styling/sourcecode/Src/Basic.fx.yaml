@@ -1,0 +1,84 @@
+Basic As screen:
+
+    butSubmit As button:
+        Height: =70
+        Size: =24
+        Text: |-
+            ="Submit
+            "
+        Width: =261
+        X: =339
+        Y: =509
+        ZIndex: =1
+
+    butCancel As button:
+        Height: =70
+        Size: =24
+        Text: ="Cancel"
+        Width: =261
+        X: =40
+        Y: =509
+        ZIndex: =2
+
+    txtLastName As text:
+        Default: =""
+        Height: =70
+        HintText: ="Enter Name..."
+        Size: =21
+        Width: =560
+        X: =40
+        Y: =381
+        ZIndex: =3
+
+    lblLastName As label:
+        FontWeight: =FontWeight.Bold
+        Height: =45
+        Size: =21
+        Text: ="Last Name"
+        Width: =560
+        X: =40
+        Y: =321
+        ZIndex: =4
+
+    txtFirstName As text:
+        Default: =""
+        Height: =70
+        HintText: ="Enter Name..."
+        Size: =21
+        Width: =560
+        X: =40
+        Y: =208
+        ZIndex: =5
+
+    lblFirstName As label:
+        FontWeight: =FontWeight.Bold
+        Height: =45
+        Size: =21
+        Text: ="First Name"
+        Width: =560
+        X: =40
+        Y: =148
+        ZIndex: =6
+
+    recHeader As rectangle:
+        Width: =640
+        ZIndex: =7
+
+    lblHeader As label:
+        Color: =RGBA(255, 255, 255, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =70
+        Size: =21
+        Text: ="Update a Record"
+        Width: =280
+        X: =21
+        Y: =15
+        ZIndex: =8
+
+    Icon1 As icon.Cancel:
+        Color: =RGBA(255, 255, 255, 1)
+        Icon: =Icon.Cancel
+        X: =536
+        Y: =18
+        ZIndex: =9
+

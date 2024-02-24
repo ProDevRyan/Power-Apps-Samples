@@ -1,0 +1,173 @@
+Styled As screen:
+    Fill: =RGBA(202, 202, 202, 1)
+
+    conBackgroundStyled As groupContainer.manualLayoutContainer:
+        DropShadow: =DropShadow.Semibold
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =Parent.Height - 50
+        RadiusBottomLeft: =20
+        RadiusBottomRight: =20
+        RadiusTopLeft: =20
+        RadiusTopRight: =20
+        Width: =Parent.Width - 50
+        X: =(Parent.Width - Self.Width)/2
+        Y: =(Parent.Width - Self.Width)/2
+        ZIndex: =1
+
+    butSubmitStyled As button:
+        BorderThickness: =0
+        Fill: |-
+            =ColorValue("#156CF7")
+        FocusedBorderColor: =
+        Height: =70
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Size: =20
+        Text: |-
+            ="Submit
+            "
+        Width: =230
+        X: =352
+        Y: =509
+        ZIndex: =2
+
+    butCancelStyled As button:
+        BorderColor: =RGBA(149, 149, 149, 1)
+        BorderThickness: =1
+        Color: =RGBA(149, 149, 149, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        Font: =Font.Lato
+        FontWeight: =FontWeight.Lighter
+        Height: =70
+        HoverFill: =Color.LightGray
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Size: =20
+        Text: ="Cancel"
+        Width: =230
+        X: =55
+        Y: =509
+        ZIndex: =3
+
+    lblLastNameStyled As label:
+        Color: =RGBA(77, 77, 77, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =45
+        Size: =21
+        Text: ="Last Name"
+        Width: =560
+        X: =55
+        Y: =323
+        ZIndex: =5
+
+    conLastNameStyled As groupContainer.manualLayoutContainer:
+        DropShadow: =DropShadow.Regular
+        Height: =70
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Width: =523
+        X: =55
+        Y: =385
+        ZIndex: =6
+
+        txtLastNameStyled As text:
+            BorderColor: =RGBA(219, 219, 219, 1)
+            Default: =""
+            FocusedBorderColor: =butSubmitStyled.Fill
+            FocusedBorderThickness: =3
+            Font: =Font.Lato
+            Height: =70
+            HintText: ="Enter Name..."
+            HoverBorderColor: =Self.FocusedBorderColor
+            HoverFill: |-
+                =ColorValue("#F6F7F9")
+            RadiusBottomLeft: =15
+            RadiusBottomRight: =15
+            RadiusTopLeft: =15
+            RadiusTopRight: =15
+            Size: =21
+            Width: =523
+            ZIndex: =1
+
+    conFirstNameStyled As groupContainer.manualLayoutContainer:
+        DropShadow: =DropShadow.Regular
+        Height: =70
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Width: =523
+        X: =55
+        Y: =204
+        ZIndex: =7
+
+        txtFirstNameStyled As text:
+            BorderColor: =RGBA(219, 219, 219, 1)
+            Default: =""
+            FocusedBorderColor: =butSubmitStyled.Fill
+            FocusedBorderThickness: =3
+            Font: =Font.Lato
+            Height: =70
+            HintText: ="Enter Name..."
+            HoverBorderColor: =Self.FocusedBorderColor
+            HoverFill: |-
+                =ColorValue("#F6F7F9")
+            RadiusBottomLeft: =15
+            RadiusBottomRight: =15
+            RadiusTopLeft: =15
+            RadiusTopRight: =15
+            Size: =21
+            Width: =523
+            ZIndex: =1
+
+    lblFirstNameStyled As label:
+        Color: =RGBA(77, 77, 77, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =45
+        Size: =21
+        Text: ="First Name"
+        Width: =560
+        X: =55
+        Y: =138
+        ZIndex: =8
+
+    lblHeaderStyled As label:
+        Color: =RGBA(77, 77, 77, 1)
+        Font: =Font.Lato
+        FontWeight: =FontWeight.Bold
+        Height: =70
+        Size: =21
+        Text: ="Update a Record"
+        Width: =230
+        X: =55
+        Y: =43
+        ZIndex: =9
+
+    conCancelStyled As groupContainer.manualLayoutContainer:
+        Fill: =RGBA(219, 219, 219, 1)
+        Height: =40
+        RadiusBottomLeft: =20
+        RadiusBottomRight: =20
+        RadiusTopLeft: =20
+        RadiusTopRight: =20
+        Width: =40
+        X: =538
+        Y: =58
+        ZIndex: =10
+
+        icoCancelStyled As icon.Cancel:
+            Color: =RGBA(102, 102, 102, 1)
+            Height: =30
+            Icon: =Icon.Cancel
+            Width: =30
+            X: =(Parent.Width - Self.Width)/2
+            Y: |
+                =(Parent.Width - Self.Width)/2
+            ZIndex: =1
+
