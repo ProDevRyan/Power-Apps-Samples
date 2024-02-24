@@ -1,0 +1,125 @@
+{
+  "ComponentIndexes": {
+    "comInputEmail": 1,
+    "comInputPhone": 1,
+    "comInputProfile": 1,
+    "comInputTimer": 1,
+    "FormItem": 2
+  },
+  "ControlUniqueGuids": {},
+  "ControlUniqueIds": {
+    "App": 1,
+    "butSave": 28,
+    "comInputEmail": 22,
+    "comInputPhone": 21,
+    "comInputProfile": 23,
+    "comInputTimer": 20,
+    "conInput": 8,
+    "conInputID": 10,
+    "conMain": 5,
+    "conSaveButton": 24,
+    "DemoScreen": 4,
+    "FormItem": 7,
+    "Host": 3,
+    "imgIcoInputID": 11,
+    "imgIcoSaveButton": 25,
+    "lblHeading": 9,
+    "lblSaveLbl": 26,
+    "lblTitle": 19,
+    "Screen2": 27,
+    "txtFormField": 13
+  },
+  "FunctionParamsInvariantScripts": {},
+  "FunctionParamsInvariantScriptsOnInstances": {},
+  "HeaderLastSavedDateTimeUTC": "02/24/2024 04:04:33",
+  "IsLegacyComponentAllowGlobalScopeCase": false,
+  "LocalConnectionIDReferences": {
+    "2f4489b2-496b-46c9-ab05-99af34b7680f": "\"/providers/microsoft.powerapps/apis/shared_logicflows/connections/078d3d7bc19f07553895e2e4786c2a23-31b9f60674a9f25a\""
+  },
+  "LocalDatabaseReferencesAsEmpty": false,
+  "LocalResourceFileNames": {},
+  "LocalResourceRootPaths": {},
+  "OrderComponentMetadata": {
+    "d7c2dc9daa5948e7b65d74c6229408ff": 0
+  },
+  "OrderComponentTemplate": {
+    "d7c2dc9daa5948e7b65d74c6229408ff": 0
+  },
+  "OrderDataSource": {
+    "colUserInfo": 4,
+    "Delay": 0,
+    "User Details": 3,
+    "User Details\\new_reserveentity_rp53fd1p1ekxpa_t7_1b3ea6cb5b_statecode": 1,
+    "User Details\\new_reserveentity_rp53fd1p1ekxpa_t7_1b3ea6cb5b_statuscode": 2
+  },
+  "OrderGroupControls": {},
+  "OrderPcfTemplate": {},
+  "OrderTemplate": {},
+  "OrderXMLTemplate": {
+    "button": 4,
+    "groupContainer": 0,
+    "image": 3,
+    "label": 1,
+    "text": 2
+  },
+  "OverridablePropertiesEntry": {
+    "App": {},
+    "butSave": {},
+    "comInputEmail": {},
+    "comInputPhone": {},
+    "comInputProfile": {},
+    "comInputTimer": {},
+    "conInput": {},
+    "conInputID": {},
+    "conMain": {},
+    "conSaveButton": {},
+    "DemoScreen": {},
+    "FormItem": {},
+    "Host": {},
+    "imgIcoInputID": {},
+    "imgIcoSaveButton": {},
+    "lblHeading": {},
+    "lblSaveLbl": {},
+    "lblTitle": {},
+    "Screen2": {},
+    "txtFormField": {}
+  },
+  "PCFDynamicSchemaForIRRetrievalEntry": {},
+  "PCFTemplateEntry": {},
+  "PublishOrderIndices": {
+    "App": 0,
+    "butSave": 7,
+    "comInputEmail": 3,
+    "comInputPhone": 4,
+    "comInputProfile": 2,
+    "comInputTimer": 5,
+    "conInput": 11,
+    "conInputID": 13,
+    "conMain": 0,
+    "conSaveButton": 6,
+    "DemoScreen": 0,
+    "FormItem": 0,
+    "Host": 0,
+    "imgIcoInputID": 14,
+    "imgIcoSaveButton": 9,
+    "lblHeading": 10,
+    "lblSaveLbl": 8,
+    "lblTitle": 1,
+    "Screen2": 0,
+    "txtFormField": 12
+  },
+  "ResourcesJsonIndices": {
+    "Image-SampleImage": 0
+  },
+  "RuleScreenIdWithoutScreen": {},
+  "TemplateVersions": {},
+  "VolatileProperties": {
+    "AnalysisLoadTime": 0.0172295,
+    "ControlCount": {
+      "d7c2dc9daa5948e7b65d74c6229408ff": 8,
+      "groupContainer": 1,
+      "label": 1
+    }
+  },
+  "WasLocalDatabaseReferencesEmpty": false
+}
