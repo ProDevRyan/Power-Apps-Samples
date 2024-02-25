@@ -1,0 +1,42 @@
+{
+  "2f4489b2-496b-46c9-ab05-99af34b7680f": {
+    "appActions": [
+      "Run"
+    ],
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "Logic flows",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1664/1.0.1664.3477/logicflows/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
+      "parameterHints": {
+        "workflowDisplayName": {
+          "value": "Delay"
+        },
+        "workflowEntityId": {
+          "value": "0d9ae323-c7d2-ee11-9079-7c1e520028fd"
+        },
+        "workflowName": {
+          "value": "078d3d7b-c19f-0755-3895-e2e4786c2a23"
+        }
+      },
+      "parameterHintsV2": {
+        "workflowDisplayName": {
+          "value": "Delay"
+        },
+        "workflowEntityId": {
+          "value": "0d9ae323-c7d2-ee11-9079-7c1e520028fd"
+        },
+        "workflowName": {
+          "value": "078d3d7b-c19f-0755-3895-e2e4786c2a23"
+        }
+      }
+    },
+    "datasets": {},
+    "dataSources": [
+      "Delay"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "2f4489b2-496b-46c9-ab05-99af34b7680f"
+  }
+}

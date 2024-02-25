@@ -1,0 +1,138 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "ryan_userdetailses",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "ryan_userdetails",
+    "MaxGetRowsCount": 500,
+    "Name": "User Details",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "ryan_email": "Email",
+      "ryan_fullname": "Full Name",
+      "ryan_phone": "Phone",
+      "ryan_timer": "Timer",
+      "ryan_userdetails_AsyncOperations": "System Jobs",
+      "ryan_userdetails_BulkDeleteFailures": "Bulk Delete Failures",
+      "ryan_userdetails_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "ryan_userdetails_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "ryan_userdetails_ProcessSession": "Process Sessions",
+      "ryan_userdetails_SyncErrors": "Sync Errors",
+      "ryan_userdetailsid": "User Details",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "User Details",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "User Details (Views)",
+    "Name": "_ryan_userdetails_views",
+    "RelatedEntityName": "User Details",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "23dec2ce-ca46-4020-8608-9068bdf9d4bc": "Active User Details",
+      "4b3303e6-12dc-4cdf-89fa-d80478028e29": "User Details Associated View",
+      "6a125328-42fc-498a-a59f-0a4373166a97": "User Details Lookup View",
+      "8e3105b2-4179-40f4-bd8d-440e67aee5ee": "Inactive User Details",
+      "97d96a15-133a-4d9a-ab14-1df6f513729a": "User Details Advanced Find View"
+    }
+  },
+  {
+    "DisplayName": "Status (User Details)",
+    "Name": "new_reserveentity_rp53fd1p1ekxpa_t7_1b3ea6cb5b_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "User Details"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "User Details",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (User Details)",
+    "Name": "new_reserveentity_rp53fd1p1ekxpa_t7_1b3ea6cb5b_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "User Details"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "User Details",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status (User Details)_1",
+    "Name": "ryan_userdetails_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "User Details"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "User Details",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (User Details)_1",
+    "Name": "ryan_userdetails_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "User Details"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "User Details",
+    "Type": "OptionSetInfo"
+  }
+]
